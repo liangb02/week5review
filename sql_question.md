@@ -10,7 +10,6 @@
 
    3. find the distribution for number of comments on an _originating post_ on '2015-09-07' for each type.
 
-   Hint: Use Over and Partition
 
     | Column | Type | Example |
     | --- | --- | --- |
