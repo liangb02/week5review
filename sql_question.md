@@ -15,25 +15,31 @@
 
 1. Open postgres on the work stations by opening finder and typing "postgres"
 
-1. In your terminal, create your database: `CREATE DATABASE ;`
+1. In your terminal, create your database: `CREATE DATABASE socialmedia;`
 
-2. Open the database: `psql -U postgres countent`
+2. Open the database: `psql -U postgres socialmedia`
 
 3. Create the tables:
 
     ```sql
-    CREATE TABLE sales (
-        ID      int,
-        month   varchar(10),
-        sales   int
+    CREATE TABLE content (
+        ContentID      int,
+        UserID         int,
+        Date           Date,
+        Type           VARCHAR(50),
+        ReferenceID    int
     );
     ```
 4. To add items, you can use `INSERT INTO`.
 
-
-
 ```sql
-insert into sales VALUES (1, 'Jan', 10);
-insert into sales VALUES (2, 'Feb', 20);
-insert into sales VALUES (3, 'Mar', 15);  
+insert into content VALUES (1, 1, '2015-09-07', 'like', 2);
+insert into content VALUES (2, 1, '2015-09-07', 'url', NULL);
+insert into content VALUES (3, 2, '2015-09-07', 'comment', 2);
+insert into content VALUES (4, 3, '2015-09-07', 'comment', 2);
+insert into content VALUES (5, 3, '2015-09-07', 'comment', 2);
+insert into content VALUES (6, 4, '2015-09-07', 'share', NULL);
+insert into content VALUES (7, 4, '2015-09-07', 'comment', 6);
+insert into content VALUES (8, 5, '2015-09-08', 'photo', NULL);
+insert into content VALUES (9, 5, '2015-09-08', 'comment', 8);
 ```
