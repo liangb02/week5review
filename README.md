@@ -41,6 +41,7 @@
     psql socialnetwork
     ```
 
+    ```
     contentid | userid |    date    |  type   | referenceid
    -----------+--------+------------+---------+-------------
             1 |      1 | 2015-09-07 | url     |
@@ -56,5 +57,5 @@
            11 |      4 | 2015-09-07 | comment |           6
            12 |      4 | 2015-09-07 | share   |
            13 |      4 | 2015-09-07 | comment |          12
-
+    ```
 Answers are in the <a href=https://github.com/xiaoyubai/week5review/blob/master/sql_solution.md> sql_solution.sql </a> file.
