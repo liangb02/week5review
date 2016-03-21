@@ -1,6 +1,6 @@
 ## SQL Question
 
-Given the below table _Content_, find the distribution for the number of comments on an _originating post_ on '2015-09-07'.
+1. Given the below table _Content_, find the distribution for the number of comments on an _originating post_ on '2015-09-07'.
    An _originating post_ is the first post when person posts to her newsfeed.  Basically--the number of posts on '2015-09-07' that recieved 0 comments, 1 comment, 2 comments, .... max comments.
 
     | Column | Type | Example |
