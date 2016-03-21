@@ -41,4 +41,4 @@
     psql socialnetwork
     ```
 
-Answers are in the sql_solution.sql file.
+Answers are in the <a href=https://github.com/xiaoyubai/week5review/blob/master/sql_solution.md> sql_solution.sql </a> file.
