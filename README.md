@@ -31,14 +31,14 @@
 
 5. create content table:
 
-```python
-psql socialnetwork < create_content_table.sql
-```
+    ```python
+    psql socialnetwork < create_content_table.sql
+    ```
 
 6. Now hopefully you have content table
 
-```python
-psql socialnetwork
-```
+    ```python
+    psql socialnetwork
+    ```
 
 Answers are in the sql_solution.sql file.
