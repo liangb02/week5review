@@ -29,7 +29,7 @@
 
 4. quit SQL: `\q`
 
-5. create content table:
+5. create content table using <a href=https://github.com/xiaoyubai/week5review/blob/master/create_content_table.sql> given sql commands </a>:
 
     ```python
     psql socialnetwork < create_content_table.sql
