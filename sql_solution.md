@@ -40,8 +40,7 @@
 3. Find distribution for number of comments for each type
     ```sql
     SELECT
-        DISTINCT num_comment, type,
-        count(*) OVER (PARTITION BY type ORDER BY num_comment) AS cnt
+        DISTINCT num_comment, type, count(*) AS cnt
     FROM tmp
     GROUP BY num_comment, type
     ORDER BY type;
